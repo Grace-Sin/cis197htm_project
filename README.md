@@ -6,12 +6,12 @@
 
 **Course term:** Spring 2023
 
-
+---
 **What is the purpose of this repo?**
 
 This repo's purpose is to contain my individual web page project.
 
-
+---
 **List your technology stack.**
 
 I'm going to be using HTML5, CSS3 and Bootstrap.
