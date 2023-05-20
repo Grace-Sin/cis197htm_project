@@ -1,0 +1,41 @@
+/*
+    Student Name: Grace Sinor
+    Date: 05/19/2023
+    File Name: styles.css
+*/
+
+.bg-primary {
+    background-color: #007BFF;
+}
+
+.hero {
+    background-image: url(../images/avatar-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.welcome {
+    position: absolute;
+    top: 40%;
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) { 
+    .welcome {
+        top: 20%;
+        left: 5%;
+        padding: 2em;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) { 
+    .hero {
+        background-position: left;
+    }
+    
+    .display-1 {
+        font-size: 8em;
+    }
+}
