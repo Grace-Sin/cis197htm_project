@@ -1,0 +1,211 @@
+/*
+    Student Name: Grace Sinor
+    Date: 05/19/2023
+    File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, ul, figure, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style rules for body and images */
+body {
+  color: #FFF;
+  background-color: #004C99;
+}
+
+body, button, input, textarea {
+  font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rules for links */
+a {
+  color: #00B4A0;
+}
+
+/* Style rules for tables */
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #00B4A0;
+}
+
+tr {
+  border-top: 1px solid #00B4A0;
+}
+
+td {
+  width: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* Styles for header area */
+header img {
+  width: 100%;
+}
+
+/* Style rules for navigation area */
+nav {
+  background-color: #007BFF;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-top: 0.5px solid #00B4A0;
+}
+
+nav li a {
+  display: block;
+  color: #00B4A0;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #004C99;
+}
+
+nav li a.active {
+  color: #FFFFFF;
+}
+
+/* Style rules for main content */
+main {
+  padding: 2%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.row iframe {
+  aspect-ratio: 16 / 9;
+  flex: 1;
+  margin: 2% 0;
+  border-radius: 3px;
+}
+
+figure {
+  border-radius: 3px;
+  background-color: #00B4A0;
+  margin: 2% auto;
+}
+
+figure img {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+figcaption {
+  padding: 2%;
+}
+
+/* Style rules for form elements */
+
+label {
+  display: block;
+  padding-top: 2%;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  padding: 1em;
+  border-radius: 3px;
+  border: none;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+form small {
+  display: block;
+}
+
+form .buttons {
+  text-align: center;
+}
+
+button {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  padding: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px #00B4A0;
+}
+
+/* Style rules for footer content */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #007BFF;
+  padding: 1% 0;
+}
+
+.social img {
+  display: inline-block;
+  padding: 4%;
+}
+
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) {
+  /*  Tablet Viewport: Style rules for nav area */
+  nav li {
+    border-top: none;
+    display: inline-block;
+    font-size: 1.25em;
+  }
+
+  nav li a {
+    padding: 0.5em;
+  }
+
+  /* Tablet Viewport: Style rules for main content */
+  .row {
+    flex-direction: row;
+  }
+
+  .row iframe:first-of-type {
+    margin-right: 2%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+  }
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) { 
+    
+}
