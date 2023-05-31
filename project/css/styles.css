@@ -4,13 +4,6 @@
     File Name: styles.css
 */
 
-/* CSS Reset */
-body, header, nav, main, footer, img, h1, ul, figure, figcaption {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
 /* Style rules for body and images */
 body {
   color: #FFF;
