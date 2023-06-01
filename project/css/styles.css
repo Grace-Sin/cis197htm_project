@@ -6,7 +6,7 @@
 
 /* Style rules for body and images */
 body {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #004C99;
 }
 
@@ -15,13 +15,26 @@ body, button, input, textarea {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
+}
+
+/* Style rules for text content */
+h1 {
+    font-size: 2em;
+}
+
+p, label {
+    margin: 1em 0;
+}
+
+.small {
+    font-size: 0.8em;
 }
 
 /* Style rules for links */
 a {
-  color: #00B4A0;
+  color: #9CFFF4;
 }
 
 /* Style rules for tables */
@@ -32,11 +45,15 @@ table {
 }
 
 thead {
-  background-color: #00B4A0;
+  background-color: #0052A3;
 }
 
 tr {
-  border-top: 1px solid #00B4A0;
+  border-top: 1px solid #9CFFF4;
+}
+
+th {
+    padding: 1%;
 }
 
 td {
@@ -52,7 +69,7 @@ header img {
 
 /* Style rules for navigation area */
 nav {
-  background-color: #007BFF;
+  background-color: #0052A3;
 }
 
 nav ul {
@@ -64,12 +81,12 @@ nav li {
   display: block;
   font-size: 1.5em;
   font-weight: bold;
-  border-top: 0.5px solid #00B4A0;
+  border-top: 0.5px solid #9CFFF4;
 }
 
 nav li a {
   display: block;
-  color: #00B4A0;
+  color: #9CFFF4;
   padding: 0.5em 2em;
   text-decoration: none;
 }
@@ -98,12 +115,14 @@ main {
   flex: 1;
   margin: 2% 0;
   border-radius: 3px;
+  box-shadow: 0 0 15px #001e3d;
 }
 
 figure {
   border-radius: 3px;
-  background-color: #00B4A0;
+  background-color: #0052A3;
   margin: 2% auto;
+  box-shadow: 0 0 15px #001e3d;
 }
 
 figure img {
@@ -116,10 +135,8 @@ figcaption {
 }
 
 /* Style rules for form elements */
-
 label {
   display: block;
-  padding-top: 2%;
 }
 
 input, textarea {
@@ -139,11 +156,12 @@ form small {
 }
 
 form .buttons {
+  margin-top: 1em;
   text-align: center;
 }
 
 button {
-  background-color: #007BFF;
+  background-color: #0052A3;
   color: #FFFFFF;
   border: none;
   border-radius: 3px;
@@ -152,20 +170,21 @@ button {
 
 button:hover {
   cursor: pointer;
-  box-shadow: 0 0 5px #00B4A0;
+  box-shadow: 0 0 5px #9CFFF4;
 }
 
 /* Style rules for footer content */
 footer {
   text-align: center;
   font-size: 0.85em;
-  background-color: #007BFF;
+  background-color: #0052A3;
   padding: 1% 0;
 }
 
 .social img {
   display: inline-block;
   padding: 4%;
+  width: auto;
 }
 
 
@@ -179,7 +198,8 @@ footer {
   }
 
   nav li a {
-    padding: 0.5em;
+    padding: 1em;
+    font-size: 1.5em;
   }
 
   /* Tablet Viewport: Style rules for main content */
