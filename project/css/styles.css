@@ -22,10 +22,20 @@ img {
 /* Style rules for text content */
 h1 {
     font-size: 2em;
+    margin: 1em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
 }
 
 p, label {
     margin: 1em 0;
+}
+
+.center {
+    text-align: center;
 }
 
 .small {
@@ -97,6 +107,7 @@ nav li a:hover {
 
 nav li a.active {
   color: #FFFFFF;
+  background-color: #004C99;
 }
 
 /* Style rules for main content */
@@ -221,4 +232,12 @@ footer {
 /* Media Query for Desktop Viewport */
 @media (min-width: 992px) { 
     
+}
+
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px) {
+    #wrapper {
+        width: 1920px;
+        margin: 0 auto;
+    }
 }
